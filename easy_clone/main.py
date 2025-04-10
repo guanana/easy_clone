@@ -5,7 +5,7 @@ from importlib.metadata import version
 from git import Repo, GitCommandError
 
 base_repo_dir = Path("~/PycharmProjects").expanduser()
-pycharm_path = os.getenv("EASY_CLONE_PYCHARM_PATH", "/Applications/PyCharm.app/Contents/MacOS/pycharm")
+pycharm_path = os.getenv("EASY_CLONE_PYCHARM_PATH", "/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm")
 
 
 def is_repo_ssh(git_url: str):
